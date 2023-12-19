@@ -1,0 +1,143 @@
+
+*{
+    margin: 0px;
+
+}
+
+.Main-container {
+    background-color: #e4f9f5;
+  height: 100%;
+  width: 100%;
+    position: relative; /* Added position relative */
+}
+
+
+.Text1 {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    font-family: cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    margin: 0px;
+   
+}
+
+
+
+.Text2 {
+    color: #66bfbf;
+    font-size: 3.625rem;
+    font-family: ;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 0px;
+    word-spacing: 50px;
+   font-weight:bold ;
+   display: block;
+   
+
+}
+.emoji-container{
+    margin: 0px;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    
+}
+.emoji-container svg{
+    width: 170px;
+    height: 200px;
+}
+.emoji-container img{
+    margin: 0px;
+    height: 240px;
+}
+
+.middle-div{
+    margin-top: 100px;
+    height: 100%;
+}
+.Mountain{
+    display: flex;
+    justify-content: center;
+}
+.Hello{
+    color: #66bfbf;
+    font-size: 3.625rem;
+    margin-top:40px ;
+    letter-spacing: 5px;
+    text-align: center;
+    
+    word-spacing: 50px;
+   font-weight:bold ;
+   display: block;
+   
+}
+.Intro{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: serif;
+    line-height: 35px;
+    margin-top: 60px;
+}
+.Profile{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.Profile-Photo{
+    background-color: red;
+    height:250px;
+    display: block;
+    border-radius: 50%;
+    width: 250px;
+    border: 10px solid #66bfbf ;
+    object-fit: cover;
+    
+    
+    
+}
+.Contact h1{
+    color: #66bfbf;
+    font-size: 3.625rem;
+    font-family: serif;
+    text-align: center;
+    margin-top: 40px;
+
+   display: block;
+   
+}
+.Contact p{
+    color: #079893;
+    font-size: 1.625rem;
+    font-family: serif;
+    text-align: center;
+    margin-top: 40px;
+  
+   display: block;
+   
+}
+.Button-container{
+    display: flex;
+    justify-content: center;
+}
+.Button{
+    background-color: #42a7a7 ;
+    width: 200px;
+    color: white;
+    font-size: 25px;
+    
+}
+.Button:hover{
+    background-color: #0ccdcd;
+}
+.footer{
+    background-color:aliceblue;
+        width: 100%;
+       
+       
+}
